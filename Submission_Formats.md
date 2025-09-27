@@ -132,7 +132,7 @@ sample_id,cell_type,top_10_features,feature_importance_scores
 
 **CSV Structure:**
 ```csv
-patient_id,risk_level,risk_probability,primary_risk_factors,risk_factor_weights,intervention_recommendation,explanation
+patient_id,risk_level,Score(SHAP/LIME/MRMR), risk_factors, issue_type(Depression/Anxiety etc.)
 ...
 ```
 
