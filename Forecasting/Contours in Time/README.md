@@ -1,7 +1,7 @@
 # Modelling Minds - VITMAS
 # Contours in Time
 # Track ID: FCT001G
-**Dataset Link:** . 
+**Dataset Link:** [COntours in Time Dataset](https://www.kaggle.com/datasets/6628519eb7f84969bca05eb32587c677e3152a8fb59ebdd82cc87490daa865d2)
 ## Objective
 Time series forecasting to predict y values for the next 5 seconds, generating 1000 prediction points within that 5-second timeframe using historical temporal data.
 
@@ -45,4 +45,5 @@ where SS_res = Σ(yᵢ - ŷᵢ)² and SS_tot = Σ(yᵢ - ȳ)²
 
 ## Submission Format
 Submission has to be a CSV file. The file name must be **{team_ID}_{track_ID}.csv** 
+
 The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
