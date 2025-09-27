@@ -1,7 +1,7 @@
 # Modelling Minds - VITMAS
 # Canes et Feles
 
-**Dataset Link:** [Canes et Felis](https://kaggle.com/datasets/64b38e9479b859344d1101c39ac63aa2c3478b9e485019cc468a87f30ba8cc13)
+**Dataset Link:** [Canes et Felis Dataset](https://kaggle.com/datasets/64b38e9479b859344d1101c39ac63aa2c3478b9e485019cc468a87f30ba8cc13)
 ## Objective
 Multi-class image classification of animals into 17 distinct categories, including various wild cats, dogs, and other mammals.
 
@@ -72,4 +72,5 @@ canes et feles/
 ## Submission Format
 Submission has to be a CSV file. The file name must be **{team_ID}_{track_name}.csv** 
 The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
+
 
