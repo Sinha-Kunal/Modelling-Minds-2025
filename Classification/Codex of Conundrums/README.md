@@ -73,7 +73,7 @@ Each class directory contains JSON files structured as follows:
 - FN: False Negatives
 
 ## Submission Format
-Submission has to be a CSV file. The file name must be **{team_ID}_{track_ID}.csv** 
-CSV must contain the JSON file_name along with the "type" of problem (from test data).
-The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
+- Submission has to be a CSV file. The file name must be **{team_ID}_{track_ID}.csv** 
+- The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
+
 
