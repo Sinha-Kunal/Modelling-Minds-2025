@@ -4,7 +4,7 @@ Welcome to **Modelling Minds**, a machine learning hackathon organized by **VIT 
 
 ## Event Details
 **Date:** September 27-28, 2025  
-**Duration:** 48 hours  
+**Duration:** 16 hours  
 **Organizer:** VIT Mathematical Association (VITMAS)  
 **Format:** Team-based competition
 
