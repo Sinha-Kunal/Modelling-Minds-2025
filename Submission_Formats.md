@@ -13,7 +13,6 @@ Where:
 
 ### File Format
 - All prediction files must be submitted as **CSV files**
-- Use UTF-8 encoding
 - No additional headers or metadata beyond specified columns
 - Ensure no missing values in prediction columns
 
