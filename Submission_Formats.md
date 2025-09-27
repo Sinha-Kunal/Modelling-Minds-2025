@@ -20,15 +20,12 @@ Where:
 
 ## Classification Track
 
-### CCF01X - Canes et Feles (Animal Image Classification)
+### CCF01X - Canes et Feles
 **File Name:** `TeamID_CCF01X.csv`
 
 **CSV Structure:**
 ```csv
-image_id,predicted_class
-img_001.jpg,dog
-img_002.jpg,cat
-img_003.jpg,dog
+image_file_name,predicted_class
 ...
 ```
 
@@ -40,15 +37,15 @@ img_003.jpg,dog
 
 ---
 
-### CCC01A - Codex of Conundrums (Mathematical Problem Classification)
+### CCC01A - Codex of Conundrums
 **File Name:** `TeamID_CCC01A.csv`
 
 **CSV Structure:**
 ```csv
-problem_id,predicted_category,confidence_score
-prob_001,algebra,0.89
-prob_002,geometry,0.76
-prob_003,calculus,0.92
+file_name,predicted_category,confidence_score
+1.json,algebra,0.89
+2.json,geometry,0.76
+3.json,calculus,0.92
 ...
 ```
 
@@ -60,24 +57,23 @@ prob_003,calculus,0.92
 
 ## Forecasting Track
 
-### FBH002T - Bullish Horizons (Stock Price Forecasting)
+### FBH002T - Bullish Horizons
 **File Name:** `TeamID_FBH002T.csv`
 
 **CSV Structure:**
 ```csv
-date,predicted_price,confidence_interval_lower,confidence_interval_upper
-2025-09-29,180.45,175.20,185.70
-2025-09-30,181.23,176.01,186.45
-2025-09-29,2750.30,2700.15,2800.45
+date,predicted_price_daily_high,predicted_price_daily_low,daily_low_confidence_interval_lower,daily_low_confidence_interval_upper,daily_high_confidence_interval_upper,daily_high_confidence_interval_lower
 ...
 ```
 
 **Column Specifications:**
-- `stock_symbol`: String - Stock ticker symbol
 - `date`: String - Date in YYYY-MM-DD format
-- `predicted_price`: Float - Predicted closing price
-- `confidence_interval_lower`: Float - Lower bound of 95% confidence interval
-- `confidence_interval_upper`: Float - Upper bound of 95% confidence interval
+- `predicted_price_high`: Float - Predicted high price
+- `predicted_price_low`: Float - Predicted low price
+- `daily_low_confidence_interval_lower`: Float - Lower bound of 90% confidence interval for `predicted_price_low`
+- `daily_low_confidence_interval_upper`: Float - Upper bound of 90% confidence interval for `predicted_price_low`
+- `daily_high_confidence_interval_lower`: Float - Upper bound of 90% confidence interval for `predicted_price_high`
+- `daily_high_confidence_interval_upper`: Float - Upper bound of 90% confidence interval for `predicted_price_high`
 
 **Requirements:**
 - Predictions for all requested stock symbols and dates
@@ -86,7 +82,7 @@ date,predicted_price,confidence_interval_lower,confidence_interval_upper
 
 ---
 
-### FCT001G - Contours in Time (Time Series Forecasting)
+### FCT001G - Contours in Time
 **File Name:** `TeamID_FCT001G.csv`
 
 **CSV Structure:**
@@ -113,29 +109,25 @@ timestamp,predicted_value,prediction_interval_lower,prediction_interval_upper
 
 ## X-AI Track
 
-### XAE001F - Atlas of Expressions (Gene Expression Analysis with XAI)
+### XAE001F - Atlas of Expressions
 **File Name:** `TeamID_XAE001F.csv`
 
 **CSV Structure:**
 ```csv
-sample_id,cell_type,class_probability,top_10_features,feature_importance_scores
+sample_id,cell_type,top_10_features,feature_importance_scores
 ...
 ```
 
 **Column Specifications:**
-- `sample_id`: String - Unique sample identifier
+- `sample_id`: String - Unique sample identifier, given in the barcodes.csv file
 - `cell_type`: String - cell type given in the barcodes.csv file
-- `class_probability`: Float - Probability of predicted class (0.0 to 1.0)
-- `top_20_features`: String - Comma-separated list of most important features
+- `top_20_features`: String - Comma-separated list of most important features (genes)
 - `feature_importance_scores`: String - Comma-separated importance scores for top 20 features
 
-**Requirements:**
-- Feature importance scores must sum to ≤ 1.0 for top 20 features
-- Explanations must be concise and scientifically meaningful
 
 ---
 
-### XRM0002K - Resilient Minds (Mental Health Data Analysis with XAI)
+### XRM0002K - Resilient Minds
 **File Name:** `TeamID_XRM0002K.csv`
 
 **CSV Structure:**
