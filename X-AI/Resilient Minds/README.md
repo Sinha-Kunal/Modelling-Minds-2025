@@ -1,7 +1,7 @@
 # Modelling Minds - VITMAS
 # Resilient Minds
 # Track ID: XRM002K
-**Dataset Link:** . 
+**Dataset Link:** [Resilient Minds Dataset](https://www.kaggle.com/datasets/6a32eafd9553a231912d75d97ab03b658f6fa691637dc88643cd1dd9a2ca29f1)
 ## Objective
 Analyze student mental health data to identify patterns, risk factors, and relationships between academic performance, demographics, and mental health conditions. The analysis focuses on understanding factors that contribute to depression, anxiety, and panic attack diagnoses among students.
 
@@ -54,5 +54,6 @@ The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
 
 **Expected Output:**
 Analysis results, statistical findings, identified patterns, and recommendations based on the mental health data analysis.
+
 
 
