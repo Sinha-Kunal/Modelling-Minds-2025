@@ -11,26 +11,17 @@ Welcome to **Modelling Minds**, a machine learning hackathon organized by **VIT 
 ## Competition Overview
 Modelling Minds challenges participants to solve real-world problems using cutting-edge machine learning techniques across three specialized tracks. Each track focuses on different aspects of AI and data science, offering diverse opportunities to showcase your skills.
 
-## Competition Tracks
+## Tracks
 
-### 1. Classification Track
-Dive into the world of pattern recognition and categorical prediction with these challenging problems:
-
-#### Problem Statements:
+### 1. Classification
 - **Canes Et Feles**
 - **Codex of Conundrums**
 
-### 2. Forecasting Track
-Predict the future with time-series analysis and predictive modeling:
-
-#### Problem Statements:
+### 2. Forecasting
 - **Contours in Time**
 - **Bullish Horizons**
 
-### 3. X-AI Track
-Explore explainable AI and cutting-edge machine learning applications:
-
-#### Problem Statements:
+### 3. X-AI
 - **Atlas of Expressions**
 - **Resilient Minds**
 
@@ -42,24 +33,24 @@ modelling-minds-hackathon/
 ├── Classification/
 │   ├── Canes-Et-Feles/
 │   │   ├── README.md
-│   │   ├── submission_format.md
+│   │   └── submission_format.md
 │   └── Codex-of-Conundrums/
 │       ├── README.md
-│       ├── submission_format.md
+│       └── submission_format.md
 ├── Forecasting/
 │   ├── Contours-in-Time/
 │   │   ├── README.md
-│   │   ├── submission_format.md
+│   │   └── submission_format.md
 │   └── Bullish-Horizons/
 │       ├── README.md
-│       ├── submission_format.md
+│       └── submission_format.md
 └── X-AI/
     ├── Atlas-of-Expressions/
     │   ├── README.md
-    │   ├── submission_format.md
+    │   └──submission_format.md
     └── Resilient-Minds/
         ├── README.md
-        ├── submission_format.md
+        └── submission_format.md
 ```
 
 
