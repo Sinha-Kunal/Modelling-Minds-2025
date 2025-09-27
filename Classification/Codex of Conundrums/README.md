@@ -1,7 +1,7 @@
 # Modelling Minds - VITMAS
 # Codex of Conundrums
 # Track ID: CCC02A
-**Dataset Link:** . 
+**Dataset Link:** [Codex of Conundrums Dataset](https://kaggle.com/datasets/4a1e06fd4e57334d09cc5dada035ebab749a87175bdad385a76a4fb0fcfb5175)
 ## Objective
 Multi-class classification of mathematical problems into 7 distinct categories covering various areas of mathematics from basic algebra to advanced number theory, based on structured problem data including problem statements, difficulty levels, types, and solutions.
 
@@ -74,4 +74,5 @@ Each class directory contains JSON files structured as follows:
 
 ## Submission Format
 Submission has to be a CSV file. The file name must be **{team_ID}_{track_ID}.csv** 
+
 The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
