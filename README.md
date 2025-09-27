@@ -80,16 +80,16 @@ All solutions will be evaluated across multiple criterion.
 
 | **Evaluation Category** | **Criteria** | **Weight** |
 |-------------------------|--------------|------------|
-| **Technical Factors** | Model Performance | 40% |
+| **Technical Factors** | Model Performance | 30% |
 | | Analysis of Data | 10% |
 | | Feature Engineering | 10% |
-| | Model Selection | 10% |
+| | Model Selection | 5% |
 | **Innovation & Approach** | Uniqueness of Solution | 15% |
 | | Technical Innovation | 10% |
 | | Problem Understanding | 5% |
-| **Documentation & Presentation** | Code Quality | 8% |
-| | Documentation | 7% |
-| | Defense | 10% |
+| **Documentation & Presentation** | Code Quality | 5% |
+| | Documentation | 5% |
+| | Defense | 5% |
 
 ## Support & Contact
 For technical queries and clarifications:
