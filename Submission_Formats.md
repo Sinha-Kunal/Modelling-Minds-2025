@@ -18,7 +18,7 @@ Where:
 
 ---
 
-## 🔍 Classification Track
+## Classification Track
 
 ### CCF01X - Canes et Feles (Animal Image Classification)
 **File Name:** `TeamID_CCF01X.csv`
@@ -58,7 +58,7 @@ prob_003,calculus,0.92
 - `confidence_score`: Float - Model confidence score (0.0 to 1.0)
 ---
 
-## 📈 Forecasting Track
+## Forecasting Track
 
 ### FBH002T - Bullish Horizons (Stock Price Forecasting)
 **File Name:** `TeamID_FBH002T.csv`
