@@ -1,7 +1,7 @@
 # Modelling Minds - VITMAS
 # Bullish Horizons
 # Track ID: FBH002T
-**Dataset Link:** . 
+**Dataset Link:** [Bullish Horizons Dataset](https://kaggle.com/datasets/f34b4815c62e18714dad96c0ccdf6426751bd5a821736bc2b3d0eb70454e23f8)
 ## Objective
 Time series forecasting of stock prices to predict future stock values (both daily_high & daily_low) until November 5, 2024, using historical trading data with multiple price indicators and volume metrics.
 
@@ -50,4 +50,5 @@ where SS_res = Σ(yᵢ - ŷᵢ)² and SS_tot = Σ(yᵢ - ȳ)²
 
 ## Submission Format
 Submission has to be a CSV file. The file name must be **{team_ID}_{track_ID}.csv** 
+
 The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
