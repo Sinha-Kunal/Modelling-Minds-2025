@@ -21,7 +21,7 @@ Resilient Minds/
 - **Age**: Age of the student
 - **course**: Academic course/program of study
 - **year of Study**: Current year of academic study
-- **CGPA?**: Cumulative Grade Point Average
+- **CGPA**: Cumulative Grade Point Average
 - **Relationship status**: Current relationship status
 - **Depression diagnosis**: Depression diagnosis status
 - **Anxiety diagnosis**: Anxiety diagnosis status
@@ -54,4 +54,5 @@ The submitted file cannot be edited after 6:00 A.M. on 28th Sept. 2025.
 
 **Expected Output:**
 Analysis results, statistical findings, identified patterns, and recommendations based on the mental health data analysis.
+
 
